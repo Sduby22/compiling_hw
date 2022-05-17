@@ -1,0 +1,39 @@
+SYMTYPE	SYMATTR	SYMVALUE
+macro
+T_LONG	---	long
+T_ID	---	foo
+(	---	(
+T_SHORT	---	short
+T_ID	---	a
+)	---	)
+{	---	{
+T_RETURN	---	return
+T_ID	---	a
++	---	+
+T_NUM	ATTR_NUM_HEX	0x1f2b3c
+...
+T_NUM	ATTR_NUM_FLOAT	123.20312
+...
+T_LITERAL	---	"asdsad\
+			       sadsad\
+			       asdsadsad\
+			       asdsadsad"
+;	---	;
+T_CHAR	---	char
+...
+T_UNION	---	union
+T_ID	---	c
+;	---	;
+T_RETURN	---	return
+T_NUM	ATTR_NUM_DECIMAL	0
+;	---	;
+}	---	}
+代码行数 : 28
+总字节数 : 396
+注释数 : 2
+关键字数 : 24
+标点符号数 : 49
+数字常量数 : 8
+字符串常量数 : 1
+标识符数 : 10
+未识别符号数 : 0

@@ -1,0 +1,13 @@
+123.23
+123.
+0x123.213
+0b00110
+0b123
+0x23213g
+12321abc
+"unterminated
+'u
+"newline with backslash\
+newline"
+@@@
+/* unfinished block comment
